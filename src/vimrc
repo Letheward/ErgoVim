@@ -1,0 +1,555 @@
+" ErgoVim
+"
+" version 0.1.0
+" =====================================
+
+" Personal Customizations =============
+
+" Interface
+set number
+set ruler
+set laststatus=2
+set showcmd
+set showmode
+set wrap!
+
+" Tabs
+set ai
+set expandtab
+set tabstop=4
+set shiftwidth=4
+
+" Search
+set hlsearch
+set ignorecase
+set incsearch
+
+" Misc.
+set ve+=onemore
+set backspace=indent,eol,start
+set cpo-=<
+set nocompatible
+set hidden
+
+
+
+
+" Modes ===============================
+
+" Temporary Normal Mode
+" TODO
+inoremap <C-L>  <C-O>
+
+" Console
+noremap  `      :
+noremap  ~      Q
+
+
+
+
+" Navigation ==========================
+
+" Basic Cursor Move
+noremap  a      h
+noremap  d      l
+noremap  w      k
+noremap  s      j
+
+" Word and Block Move
+noremap  q      b
+noremap  e      w
+noremap  r      {
+noremap  f      }
+
+noremap  Q      B
+noremap  E      W
+noremap  R      (
+noremap  F      )
+
+noremap  gq     B
+
+" Page Move
+noremap  W      <C-B> 
+noremap  S      <C-F> 
+
+" End
+noremap  <C-E>  El
+
+noremap  A      ^
+noremap  D      g_l
+noremap  <C-A>  0
+noremap  <C-D>  $l
+noremap  <C-W>  gg
+noremap  <C-S>  G
+
+" Matching Pairs
+" TODO
+noremap  <C-Q>  %
+
+
+
+
+" Edit ================================
+
+" Insert
+noremap  l      i
+noremap  ll     i
+noremap  L      i
+
+noremap  p      r
+
+noremap  ln     a
+
+noremap  li     R
+
+noremap  lk     S
+noremap  lK     s
+
+noremap  lj     c
+
+noremap  lja    c0
+noremap  ljd    c$
+noremap  ljw    c(
+noremap  ljs    c)
+
+noremap  ljA    c^
+noremap  ljD    cg_
+noremap  ljW    cgg
+noremap  ljS    cG
+
+noremap  la     I
+noremap  ld     g_li
+noremap  lw     O
+noremap  ls     o
+
+noremap  lA     gI
+noremap  lD     A
+
+noremap  lq     bi
+noremap  le     eli
+noremap  lr     {i
+noremap  lf     }i
+
+noremap  lQ     Bi
+noremap  lE     Eli
+noremap  lR     (i
+noremap  lF     )i
+
+" Switch Case
+noremap  P      ~
+
+" Numbers
+noremap  =      <C-A>
+noremap  -      <C-X>
+
+noremap  +      g<C-A>
+noremap  _      g<C-X>
+
+" Seletion
+noremap  m      v
+
+noremap  M      V
+noremap  MM     <C-V>
+
+vnoremap j      d
+vnoremap i      y
+
+vnoremap la     i
+vnoremap ld     a
+
+vnoremap <Tab>    >
+vnoremap <S-Tab>  <
+
+" Delete
+noremap  k      "_X
+noremap  K      "_x
+vnoremap k      "_x
+
+" Cut
+nnoremap j      d
+nnoremap J      J
+
+nnoremap jj     dd
+
+nnoremap ja     d0
+nnoremap jd     d$
+nnoremap jw     d(
+nnoremap js     d)
+
+nnoremap jA     d^
+nnoremap jD     dg_
+nnoremap jW     dgg
+nnoremap jS     dG
+
+nnoremap jN     dn
+nnoremap jn     dN
+
+
+
+" Copy
+nnoremap i      y
+nnoremap I      Y
+nnoremap ii     Y
+
+nnoremap ia     y0
+nnoremap id     y$
+nnoremap iw     y(
+nnoremap is     y)
+
+nnoremap iA     y^
+nnoremap iD     yg_
+nnoremap iW     ygg
+nnoremap iS     yG
+
+nnoremap in     yn
+nnoremap in     yn
+
+" Paste
+noremap  o      p
+noremap  O      P
+
+
+" Unde/Redo
+noremap  u      u
+noremap  U      <C-R>
+
+" Repeat
+noremap  h      .
+
+" Indentation
+nnoremap <Tab>   >>
+nnoremap <S-Tab> <<
+
+" Space Action
+noremap  <Return>    i<Return><Esc>
+noremap  <S-Return>  O<ESC>j
+
+noremap  <Space>     i<Space><Esc>l
+noremap  <S-Space>   i<Tab><Esc>l
+
+noremap  <BS>        k"_dd
+
+" TODO: not quite right
+nnoremap j<Space>a   gEldw
+nnoremap j<Space>d   WgEldw
+nnoremap j<Space>w   {{}d)
+nnoremap j<Space>s   {}d)
+
+" Text Object
+nnoremap jkq  di[
+nnoremap jlq  da[
+
+nnoremap jkw  di{
+nnoremap jlw  da{
+
+nnoremap jke  di(
+nnoremap jle  da(
+
+nnoremap jkr  di<
+nnoremap jlr  da<
+
+nnoremap jka  di"
+nnoremap jla  da"
+
+nnoremap jks  di'
+nnoremap jls  da'
+
+nnoremap jkd  di`
+nnoremap jld  da`
+
+nnoremap jkf  dit
+nnoremap jlf  dat
+
+nnoremap jkz  diw
+nnoremap jlz  daw
+
+nnoremap jkx  diW
+nnoremap jlx  daW
+
+nnoremap jkc  dis
+nnoremap jlc  das
+
+nnoremap jkv  dip
+nnoremap jlv  dap
+
+
+nnoremap ikq  yi[
+nnoremap ilq  ya[
+
+nnoremap ikw  yi{
+nnoremap ilw  ya{
+
+nnoremap ike  yi(
+nnoremap ile  ya(
+
+nnoremap ikr  yi<
+nnoremap ilr  ya<
+
+nnoremap ika  yi"
+nnoremap ila  ya"
+
+nnoremap iks  yi'
+nnoremap ils  ya'
+
+nnoremap ikd  yi`
+nnoremap ild  ya`
+
+nnoremap ikf  yit
+nnoremap ilf  yat
+
+nnoremap ikz  yiw
+nnoremap ilz  yaw
+
+nnoremap ikx  yiW
+nnoremap ilx  yaW
+
+nnoremap ikc  yis
+nnoremap ilc  yas
+
+nnoremap ikv  yip
+nnoremap ilv  yap
+
+
+
+
+" Auto-complete ======================
+inoremap <S-Tab>    <C-X><C-I>
+inoremap <S-Return> <C-N>
+
+" TODO
+
+
+
+
+" Registers ==========================
+" TODO
+
+
+
+
+" Search ==============================
+noremap  N     n
+noremap  n     N
+
+noremap  nl    /
+noremap  ni    #*
+noremap  nk    :noh<Return>
+
+" TODO
+noremap  nj    :s//
+noremap  nJ    :%s//
+
+noremap  no    &
+
+noremap  ns    /
+noremap  nw    ?
+
+noremap  na    F
+noremap  nd    f
+noremap  nA    T
+noremap  nD    t
+
+noremap  nq    ,
+noremap  ne    ;
+
+
+
+" Macro ===============================
+" TODO
+noremap  <C-`> q
+noremap  H     @a
+
+
+
+
+" External ============================
+" TODO
+noremap  g     !
+
+
+
+
+" Marker ==============================
+" TODO: This vim feature is very bad-designed and unusable, maybe will remove it
+noremap  b     m
+noremap  B     `
+
+
+
+
+" Folding =============================
+" TODO: a bit hard to type
+noremap  Z     <NOP>
+noremap  ZZ    zf
+noremap  Zl    zo
+noremap  Zk    zR
+
+
+
+
+" File and Window Management ==========
+
+" Buffer
+noremap  z     <NOP>
+noremap  Z     <NOP>
+
+noremap  zz    :bn<Return>
+
+noremap  zd    :bn<Return>
+noremap  za    :bp<Return>
+noremap  zw    :bfirst<Return>
+noremap  zs    :blast<Return>
+
+noremap  zl    :buffer<Space>
+noremap  zj    :ball<Return>
+noremap  zk    :bd<Space>
+noremap  zn    :badd<Space>
+
+" Window
+noremap  x     <NOP>
+noremap  X     <NOP>
+
+noremap  xx    <C-W>w
+
+noremap  xl    <C-W>o
+noremap  xk    <C-W>c
+
+noremap  xa    <C-W>h
+noremap  xd    <C-W>l
+noremap  xw    <C-W>k
+noremap  xs    <C-W>j
+
+noremap  xc    <C-W>T
+
+noremap  xo    <C-W>=
+
+noremap  xq    <C-W>10<
+noremap  xe    <C-W>10>
+noremap  xr    :res +5<return>
+noremap  xf    :res -5<return>
+
+noremap  xi    <NOP>
+
+noremap  xia   <C-W>v<C-W>l
+noremap  xid   <C-W>v
+noremap  xiw   <C-W>s<C-W>j
+noremap  xis   <C-W>s
+
+noremap  xn    <NOP>
+
+noremap  xna   :lefta<Space>vnew<Space>
+noremap  xnd   :rightb<Space>vnew<Space>
+noremap  xnw   :lefta<Space>new<Space>
+noremap  xns   :rightb<Space>new<Space>
+
+noremap  xj    <NOP>
+
+noremap  xjj   <C-W>x
+
+noremap  xjq   <C-W>R
+noremap  xje   <C-W>r
+
+noremap  xja   <C-W>H
+noremap  xjd   <C-W>L
+noremap  xjw   <C-W>K
+noremap  xjs   <C-W>J
+
+" Tab
+noremap  c     <NOP>
+noremap  C     <NOP>
+
+noremap  cc    :tabnext<Return>
+
+noremap  ca    :tabprevious<Return>
+noremap  cd    :tabnext<Return>
+noremap  cw    :tabfirst<Return>
+noremap  cs    :tablast<Return>
+
+noremap  cl    :tabonly<Return>
+noremap  ck    :tabclose<Return>
+noremap  cn    :tabnew<Space>
+
+noremap  cja   :-tabmove<Return>
+noremap  cjd   :+tabmove<Return>
+noremap  cjw   :0tabmove<Return>
+noremap  cjs   :tabmove<Return>
+
+" Terminal
+" TODO
+noremap  v     <NOP>
+noremap  V     <NOP>
+
+noremap  vv                  :rightb<Space>term<Return>
+
+noremap  va    :lefta<Space>vertical<Space>term<Return>
+noremap  vd   :rightb<Space>vertical<Space>term<Return>
+noremap  vw                               :term<Return>
+noremap  vs                  :rightb<Space>term<Return>
+
+tnoremap <C-X> <C-W>w
+
+tnoremap <C-A> <Left>
+tnoremap <C-D> <Right>
+tnoremap <C-W> <Up>
+tnoremap <C-S> <Down>
+
+tnoremap <C-Q> <C-Left>
+tnoremap <C-E> <C-Right>
+tnoremap <C-R> <C-Up>
+tnoremap <C-F> <C-Down>
+
+
+
+
+" Command Line ========================
+cnoremap <C-A> <Left>
+cnoremap <C-D> <Right>
+cnoremap <C-W> <Up>
+cnoremap <C-S> <Down>
+
+cnoremap <C-Q> <C-Left>
+cnoremap <C-E> <C-Right>
+cnoremap <C-R> <C-Up>
+cnoremap <C-F> <C-Down>
+
+
+
+
+" Diff ================================
+" TODO
+
+
+
+
+" Misc ================================
+
+" Function Keys
+" TODO
+noremap  <F1>          :registers<Return>
+inoremap <F1>     <C-O>:registers<Return>
+
+noremap  <F2>          :marks<Return>
+inoremap <F2>     <C-O>:marks<Return>
+
+noremap  <F3>          :tags<Return>
+inoremap <F3>     <C-O>:tags<Return>
+
+noremap  <F4>          :ls<Return>
+inoremap <F4>     <C-O>:ls<Return>
+
+noremap  <F5>          :set wrap!<Return>
+inoremap <F5>     <C-O>:set wrap!<Return>
+
+" Save Normal People
+noremap  <C-Z>    u
+noremap  <C-Y>    <C-R>
+
+noremap  <C-X>    "*d
+noremap  <C-C>    "*y
+noremap  <C-V>    "*p
+
+" wtf is this crap (empty for now)
+
+
+
+
