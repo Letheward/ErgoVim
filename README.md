@@ -29,7 +29,7 @@ so you can customize/extend it to your needs with low friction.
     **DON'T** directly copy this vimrc to your vim config or plugin folder.  
     **BACKUP** your setup first.  
 
-    1. Download from [release]() or clone this repository.
+    1. Download from [release](https://github.com/Letheward/ErgoVim/releases) or clone this repository.
     
     2. Read the source code, cheatsheet and "How to Use" carefully,  
     make sure you understand the philosophy behind those design choices.
@@ -45,7 +45,7 @@ so you can customize/extend it to your needs with low friction.
     
     3. Close Neovim by typing `:qa!` and Enter.
 
-    4. Download from [release]() or clone this repository.
+    4. Download from [release](https://github.com/Letheward/ErgoVim/releases) or clone this repository.
 
     5. Rename the `vimrc` in extracted folder to `init.vim`.
     
@@ -88,7 +88,7 @@ so you can customize/extend it to your needs with low friction.
     
         Make sure you put them in separate folders to distinguish them.
 
-    4. Download from [release]() and extract, or clone this repository.
+    4. Download from [release](https://github.com/Letheward/ErgoVim/releases) and extract, or clone this repository.
 
     5. Choose one from these 3 directories to install ErgoVim.  
     Rename the `vimrc` file from ErgoVim to the name in the directory you choose.  
@@ -124,7 +124,7 @@ so you can customize/extend it to your needs with low friction.
 
 ![cheatsheet](img/Cheatsheet.png)
 (the cheatsheet, right-click/long-press to download if text is too small on your device)  
-(also there is a copy in the zip download from [release]())
+(also there is a copy in the zip download from [release](https://github.com/Letheward/ErgoVim/releases))
 
 ### First Steps
 
