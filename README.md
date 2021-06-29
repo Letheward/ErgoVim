@@ -356,6 +356,7 @@ This `vimrc` file is already tested on:
 - Vim 8.1 (huge version), Konsole/X11/KDE Plasma 5.21.5, KDE Neon 5.21. (no problem found yet)
 - Vim 8.2 (small version), GNOME Terminal/Wayland/GNOME 3.38.1, Fedora 33. (partially working)
 - Neovim v0.4.4, nvim-qt, Windows 10. (minor issues)
+- VS Code Vim (yes, they have experimental vimrc support). (partially working)
 
 Issues:
 - Some Commands will behave like the old way if it's hold other than tapped.
