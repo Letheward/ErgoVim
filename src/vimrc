@@ -489,7 +489,7 @@ noremap  vs                  :rightb<Space>term<Return>
 " if map terminal normal mode to <Esc>, every Shift-<Key> will break
 " like, vim, why?
 " also, you can not change input position in terminal normal mode 
-" so C-<Key> movements are still nessasary
+" so C-<Key> movements are still necessary
 tnoremap <C-L> <C-\><C-N>
 tnoremap <C-X> <C-W>w
 
