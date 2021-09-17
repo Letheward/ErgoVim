@@ -202,8 +202,6 @@ Some Examples:
     3. find the function `fooBarFunction()`
     4. map `xh` to `:fooBarFunction()<Return>`
 
----
-
 ## How to Contribute
 
 ### Help testing on other platforms
@@ -233,9 +231,6 @@ small size yet also legible. (smallest font in half size is equal to 16px)
 
 If you want to output svg for users, make sure to convert all text to path.  
 (it's recommended to convert text by part because it's slow and may freeze Inkscape)
-
-
----
 
 ## Q&A
 
