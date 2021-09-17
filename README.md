@@ -3,21 +3,17 @@
 > If you use UK style or DVORAK keyboard, or something like HHKB,  
 > ErgoVim may not work as intented.  
 > 
-> This README assume you use **STANDARD** US style keyboard.
+> This README assume you use **STANDARD US style** keyboard.
 
 ---
 
 ## Introduction
 
-ErgoVim is a ergonomic keymapping for Vim.
+ErgoVim is a ergonomic keymapping for Vim.  
+Design for comfort, intuition and efficiency.
 
-Design for comfort, ease of reach, intuition and area relationships,  
-rather than naming gimmicks.
-
-Also, ErgoVim is minimal (but not basic) and easy to reason about,  
+Also, ErgoVim is minimal and easy to reason about,  
 so you can customize/extend it to your needs with low friction.
-
-> Your hands are much faster than your brain.
 
 ---
 
@@ -31,8 +27,7 @@ so you can customize/extend it to your needs with low friction.
 
     1. Download from [release](https://github.com/Letheward/ErgoVim/releases) or clone this repository.
     
-    2. Read the source code, cheatsheet and "How to Use" carefully,  
-    make sure you understand the philosophy behind those design choices.
+    2. Read the `vimrc` source code, cheatsheet and "How to Use" in this README carefully.
 
     3. Figure out how to integrate the keymap to your own setup.
  
@@ -41,13 +36,13 @@ so you can customize/extend it to your needs with low friction.
     1. Open Neovim, type `:echo stdpath('config')` and Enter. 
     It will output something like this: `C:\Users\You\AppData\Local\nvim`. (this is on windows)
     
-    2. Go to that folder, if there is none, create a `nvim` folder in the upper folder.
+    2. Go to that folder, if there is none, create a `nvim` folder.
     
     3. Close Neovim by typing `:qa!` and Enter.
 
     4. Download from [release](https://github.com/Letheward/ErgoVim/releases) or clone this repository.
 
-    5. Rename the `vimrc` in extracted folder to `init.vim`.
+    5. Rename ErgoVim's `vimrc` to `init.vim`.
     
     6. Put `init.vim` to the folder in step 1. 
 
@@ -57,7 +52,7 @@ so you can customize/extend it to your needs with low friction.
 - Using vanilla Vim with no setup:
 
     1. Open Vim and type `:version`, hit `Enter`. It will output something like this:  
-    (you may need to hit `Enter` to scroll down to see all of it, keep it open so you can refer to)
+    (you may need to hit `Enter` to scroll down to see all of it.)
 
         ~~~
         :version
@@ -76,46 +71,31 @@ so you can customize/extend it to your needs with low friction.
         Compilation: ...
         ~~~
 
-    2. Go to directories:
+    2. Go to these directories:
         - `system vimrc file`
         - `user vimrc file`
         - `2nd user vimrc file`
 
         If you are using MinGW, they might endup being in your MinGW distro's `/etc/`, etc.  
 
-    3. Check if there are already vimrc files. (they may be hidden in file explorer)  
-        If so, **COPY** them to a secure location.
-    
-        Make sure you put them in separate folders to distinguish them.
+    3. **BACKUP** existing `vimrc` files. (they may be hidden in file explorer)  
 
-    4. Download from [release](https://github.com/Letheward/ErgoVim/releases) and extract, or clone this repository.
+    4. Download from [release](https://github.com/Letheward/ErgoVim/releases) or clone this repository.
 
-    5. Choose one from these 3 directories to install ErgoVim.  
-    Rename the `vimrc` file from ErgoVim to the name in the directory you choose.  
+    5. Choose one from these 3 directories to install ErgoVim. Base on what directory you choose, you may have to rename ErgoVim's `vimrc`. 
 
         - If you are using MinGW on Windows, `system vimrc file` is recommended.
         - If you don't know how to delete files in protected `/etc/`,  
-        you can rename it to the one in `user vimrc file`.
+        you can choose `user vimrc file` (but system `vimrc` will still be there and functioning).
         - If you want to install to `2nd user vimrc file`,  
         you may need to create a `.vim` folder if there is none.
+    
+    6. Put ErgoVim's `vimrc` to your chosen directory (will **overwrite** existing `vimrc`) 
 
-    6. Close Vim. If you don't know how:
+    7. Open Vim again, you may notice something has changed.  
+        Hit \` key, and type `qa!`, and Enter to exit.  
 
-        - hit `Enter` to close that output window if it's still open.
-        - Now type `:qa!`, hit `Enter`.
-
-    7. Now delete the **ALL** the original `vimrc` files in these directories.  
-        **Be careful** not to accidently delete other files.  
-
-        Then put your renamed `vimrc` to the directory you choose.  
-
-    8. Open Vim again, you may notice something has changed.
-
-    9. Hit \` key (it's on the upside of `Tab`), and type `qa!`, hit `Enter`. It should close.  
-    If not, close Vim using the old method,  
-    back to step 1, check for errors, and repeat. 
-
-    999999999. After you are familiar with Vim, look into the older `vimrc` files.  
+    999999999. After you are familiar with Vim, look into the older `vimrc` files you've backed up.  
     Get features you want back to you config.
 
 ---
@@ -124,108 +104,58 @@ so you can customize/extend it to your needs with low friction.
 
 ![cheatsheet](img/Cheatsheet.png)
 (the cheatsheet, right-click/long-press to download if text is too small on your device)  
-(also there is a copy in the zip download from [release](https://github.com/Letheward/ErgoVim/releases))
+(also there is a copy in the zip folder download from [release](https://github.com/Letheward/ErgoVim/releases))
 
-### First Steps
-
-First, you need to understand that Vim is a modal Editor.  
-That means, there are different modes in Vim.  
-
-There are at least 3 modes you need to use:
-
-- Normal Mode  
-    For navigation, cut/copy/paste and much more.  
-    This is the "home" mode in Vim.
-
-- Command Line Mode  
-    For entering commands like quit Vim, open and save your file, etc.
-
-- Insert Mode  
-    Enter your text like in a normal editor.
-
-When you open Vim, Normal Mode is the default mode you are in.  
-Hit `Esc` to exit most modes.
-
-Let's do a step-thru exercise:
+### A Basic Walk-through
 
 - Part I
-1. Open Vim.
-1. Naturally rest your left hand on `wasd`, right hand on `ijkl`.
-1. Hit `ll` to enter Insert Mode.
-1. Enter some gibberish, need to have spaces and blanklines. 
-1. Enter more gibberish like above.
-1. Enter even more gibberish that you need to scroll the screen.
-1. Hit `Esc` to back to Normal Mode.
-1. Use `wasd` to navigate, like using a game controller's D-Pad.
-1. Use `qerf` to navigate, observe the differences.
-1. Use `WASD` (capital means with `Shift`) to navigate.
-1. Navigate some more.
+1. Open Vim. Naturally rest your left hand on `wasd`, right hand on `ijkl`.
+1. Hit `ll` to enter **Insert Mode**.
+1. Enter some gibberish, need to have spaces and blanklines, and long enough that you need to scroll the screen.
+1. Hit `Esc` to back to **Normal Mode**.
+1. `w`, `a`, `s`, `d` to move cursor.
+1. `q`, `e`, `r`, `f` to move by word and paragraph.
+1. `W`, `S` (capital means with `Shift`) to scroll pages.
+1. `A`, `D` to go to soft line beginning and end (soft means it will ignore spaces at start or end of line).
+1. `Ctrl-a` and `Ctrl-d` to go to hard line beginning and end.
+1. `Ctrl-w` and `Ctrl-s` to go to file beginning and end.
 
 - Part II
-1. Navigate to middle of a long word, hit `k`, hit more if you want.
-1. Now try hit `K` instead.
-1. Now hit `u` repeatly until the full word is back.
-1. Hit `U` repeatly until nothing happens. 
-1. Press and hold `u` until the file is back to empty.
-1. Press and hold `U` until nothing happens. 
-1. Hit `m` Key to enter Visual Mode.
-1. Try navigate using everything you know, observe what happens.
-1. Hit `Esc` to back to Normal Mode.
-1. Enter Visual Mode again, but now hit `m` to back.
+1. `k` to backspace, `K` to delete.
+1. `u` to undo, `U` to redo.
+1. `m` to enter **Visual Mode** (this is just selecting) and back. Using `Esc` also goes back to **Normal Mode**.
+1. Using all the movement keys in Part I to change selection range in **Visual Mode**.
+1. In **Visual Mode**, `j` to cut selection, `i` to copy selection.
+1. In **Normal Mode**, `jj` to cut a line, `ii` to copy a line. 
+1. In **Normal Mode**, `o` to paste after cursor or line, `O` to paste before cursor or line. 
+1. In **Visual Mode**, `Ctrl-x`, `Ctrl-c` to cut, copy to system clipboard. 
+1. In **Normal Mode**, `Ctrl-v` to paste from system clipboard.
 
 - Part III
 1. Hit \` Key to enter Command Line Mode.
-1. Input some *really really long* gibberish and hit `Enter`.
-1. Enter Command Line Mode again, this time type `help cmdline` and hit `Enter`.
-1. If you want to read that, navigate using the same method you learned.
-1. Hit `xk` to close that help window.
-1. Hit `xk` again.
-1. Enter Command Mode, try `quit`.
-1. Enter Command Mode again, try `q`.
-1. Enter Command Mode again, try `q!`.
+1. Type `help cmdline` and hit `Enter`.
+1. `xid` to open a copy of that window to the right.
+1. `xx` to change window.
+1. `xs` to go to window below.
+1. `xk` to close current window.
+1. `xl` to make current window fullscreen.
 
-### Basic Editing
+### Semantics:
 
-### Key Sequences
+- Direction Keys:
 
-### Window Management
+    - `ld` is insert to the *right* of this line.
+    - `jf` is cut *down the block*.
+    - `ie` is copy until the *word right*.
 
-### Advance Editing
+- Action Keys:
 
-### The Philosophy
-
-The core ideas of ErgoVim are:
-
-1. Hands should rest naturally on the keyboard.
-2. Everything should be done with minimal motion.
-3. Design should make users think less about the editor.
-
-To accomplish these, ErgoVim has some design choices:
-
-- Area Relationship:
-
-    - Left Hand is mainly for movements.  
-    - Right Hand is mainly for actions.
-    - Bottom row is basically all about window/view/position.
-    - In text object, left hand is for all the syntax structures,  
-    and structures in each row are similiar.
-
-- Semantic Key Sequences:
-
-    - Following Direction Keys:
-
-        - `ld` is insert to the *right* of this line.
-        - `jf` is cut *down the block*.
-        - `ie` is copy until the *word right*.
-
-    - Following Action Keys:
-
-        - (same as leader, like `jj`, `ii`, `xx`) do the basic stuff
-        - `l` Enter, Confirm, do things
-        - `k` cancel, delete, exit, close
-        - `j` change, cut, join
-        - `i` copy, identity
-        - `n` new
+    - (same as leader, like `jj`, `ii`, `xx`) do the basic stuff
+    - `l` enter, confirm, do things
+    - `k` cancel, delete, exit, close
+    - `j` change, cut, join
+    - `i` copy, identity
+    - `n` new
 
 Examples:
 
@@ -233,6 +163,22 @@ Examples:
 - `Zl`: *entering* the fold.  
 - `nk`: *cancel* search highlight.   
 - `ni`: *search* using the word under *current* cursor location. 
+
+### Basic Editing
+
+(TODO)
+
+### Key Sequences
+
+(TODO)
+
+### Window Management
+
+(TODO)
+
+### Advance Editing
+
+(TODO)
 
 ### Tips
 
@@ -242,12 +188,10 @@ Examples:
 
 - Avoid using your pinky as possible:
 
-    ErgoVim tries very hard to minimize pinky usage, however there are inevitably some features need `Shift` and `Ctrl`.  
-    In those cases, since those features are less frequent by design, you should use your stronger fingers/both hands,  
-    without worrying about speed loss for moving your hands out of homerow.
+    ErgoVim tries to minimize pinky usage, however inevitably there are features needing `Shift` and `Ctrl`.  
+    In those cases, since those features are less frequent by design, you should use your stronger fingers/both hands, without worrying about speed loss for moving your hands out of homerow.
 
-    Also, if you need to hit `Tab` repeatly (like auto-complete in `cd`), you should use a stronger finger (or even multiple fingers) to do that.
-
+    Also, if you need to hit `Tab` repeatly (like auto-completion in `cd`), you should use a stronger finger (or even multiple fingers) to do that.
 
 ### Customize
 
@@ -313,7 +257,7 @@ If you want to output svg for users, make sure to convert all text to path.
 
     ErgoVim will be nonetheless a new mapping for you, so you can choose to learn it the original way.  
 
-    Or, understand ErgoVim philosophy and remap everything yourself, this should be easy to reason about, but tedious to do (just like developing ErgoVim against classic Vim).  
+    Or, understand ErgoVim's philosophy and remap everything yourself, this should be easy to reason about, but tedious to do (just like developing ErgoVim against classic Vim).  
     In the end, if that makes you use Vim better, it's worth it, because software should adjust to people, not the other way around.
 
 - > Why don't you remap `Esc` with something like `jk` or `jj`?
@@ -328,24 +272,7 @@ If you want to output svg for users, make sure to convert all text to path.
     These Keys don't work consistently across multiple OS/Terminals.  
     Typical `CapsLock` / `Esc` / `Ctrl` swap is done by registry hack/OS config/AHK, etc.
 
-    If you know how to fix the problem by vimscript only,  and get it work on every major platform, please do PR or write a issue.
-
-- > Why put so much effort on a keymapping?
-
-    Because keymapping is really important. If you don't believe that, try play a FPS with Emacs navigation controls.
-
-    Secondly, Vim keymapping is not just swap keys. Vim is not a text editor, but a half-ass (better than nothing) key sequence/macro interpreter, plus a extendable text editor loaded with insane amount of commands.  
-    
-    If you understand that, you can do super crazy stuff with mapping that will massively speed you up (assume you can remember it). With that said, ErgoVim is not a crazy stuff config, but a friendly starting ground.
-
-- > Why don't you make your own editor/fork Vim?
-
-    It could happen, but not right now.
-
-- > Is ErgoVim inspired by modern video games?
-
-    Yes. (also Japanese style PlayStation Controller Mapping)  
-    (I still don't understand how tf `X` is confirm, `O` is cancel, or on the left is continue, on the right is cancel... please.)
+    If you know how to fix the problem by vimscript only,  and get it work on every major platform, please do a PR or write a issue.
 
 ---
 
@@ -355,17 +282,18 @@ This `vimrc` file is already tested on:
 - Vim 8.2 (huge version), MinTTY/MinGW, Windows 10. (developed on)
 - Vim 8.1 (huge version), Konsole/X11/KDE Plasma 5.21.5, KDE Neon 5.21. (no problem found yet)
 - Vim 8.2 (small version), GNOME Terminal/Wayland/GNOME 3.38.1, Fedora 33. (partially working)
-- Neovim v0.4.4, nvim-qt, Windows 10. (minor issues)
-- VS Code Vim (yes, they have experimental vimrc support). (partially working)
+- Neovim v0.5.0, nvim-qt, Windows 10. (minor issues)
+- VS Code Vim (yes, they have experimental `vimrc` support). (partially working)
 
 Issues:
+- `CapsLock` will change commands to uppercase commands on the same key.
 - Some Commands will behave like the old way if it's hold other than tapped.
-- Search back will perform once more if hold (due to how it's designed), wait for it or hit `Shift-N` to cancel.
+- Search back `n` will perform once more if hold (due to how it's designed), wait for it or hit `N` to cancel.
 - Default small version Vim miss many features, like text object, auto-complete, etc.   
     Using key sequences for those features may cause unwanted behavior.
 - `Shift-Enter` on GNOME Terminal/Fedora 33 is not working.
 - Terminal window switching is not ideal.
-- On Neovim, Visual mode cursor `a` and `d` may need extra input to function.
+- On Neovim, Visual mode cursor `a` and `d` may need extra key inputs to function.
 - Terminal on Neovim is not working as expected.
 
 ## License
