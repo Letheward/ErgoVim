@@ -5,8 +5,6 @@
 > 
 > This README assume you use **STANDARD US style** keyboard.
 
----
-
 ## Introduction
 
 ErgoVim is a ergonomic keymapping for Vim.  
@@ -14,8 +12,6 @@ Design for comfort, intuition and efficiency.
 
 Also, ErgoVim is minimal and easy to reason about,  
 so you can customize/extend it to your needs with low friction.
-
----
 
 ## How to Install
 
@@ -97,8 +93,6 @@ so you can customize/extend it to your needs with low friction.
 
     999999999. After you are familiar with Vim, look into the older `vimrc` files you've backed up.  
     Get features you want back to you config.
-
----
 
 ## How to Use
 
@@ -273,8 +267,6 @@ If you want to output svg for users, make sure to convert all text to path.
     Typical `CapsLock` / `Esc` / `Ctrl` swap is done by registry hack/OS config/AHK, etc.
 
     If you know how to fix the problem by vimscript only,  and get it work on every major platform, please do a PR or write a issue.
-
----
 
 ## Known Issues
 
