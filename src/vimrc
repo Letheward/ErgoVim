@@ -1,6 +1,6 @@
 " ErgoVim
 "
-" version 0.1.0
+" version 0.1.1
 " =====================================
 
 " Personal Customizations =============
@@ -97,13 +97,14 @@ noremap  ll     i
 noremap  L      i
 
 noremap  p      r
+noremap  P      ~
 
 noremap  ln     a
 
-noremap  li     R
+noremap  lk     R
 
-noremap  lk     S
-noremap  lK     s
+noremap  li     S
+noremap  lI     s
 
 noremap  lj     c
 
@@ -135,9 +136,6 @@ noremap  lE     Eli
 noremap  lR     (i
 noremap  lF     )i
 
-" Switch Case
-noremap  P      ~
-
 " Numbers
 noremap  =      <C-A>
 noremap  -      <C-X>
@@ -154,8 +152,8 @@ noremap  MM     <C-V>
 vnoremap j      d
 vnoremap i      y
 
-vnoremap la     i
-vnoremap ld     a
+vnoremap la     I
+vnoremap ld     A
 
 vnoremap <Tab>    >
 vnoremap <S-Tab>  <
@@ -212,6 +210,9 @@ noremap  O      P
 " Unde/Redo
 noremap  u      u
 noremap  U      <C-R>
+
+noremap  t      :earlier 
+noremap  T      :later 
 
 " Repeat
 noremap  h      .
@@ -339,7 +340,8 @@ noremap  nk    :noh<Return>
 noremap  nj    :s//
 noremap  nJ    :%s//
 
-noremap  no    &
+noremap  no    &n
+noremap  <C-N> &n
 
 noremap  ns    /
 noremap  nw    ?
