@@ -1,6 +1,6 @@
 " ErgoVim
 "
-" version 0.1.1
+" version 0.1.2
 " =====================================
 
 " Personal Customizations =============
@@ -108,13 +108,13 @@ noremap  lI     s
 
 noremap  lj     c
 
-noremap  lja    c0
-noremap  ljd    c$
+noremap  lja    c^
+noremap  ljd    cg_
 noremap  ljw    c(
 noremap  ljs    c)
 
-noremap  ljA    c^
-noremap  ljD    cg_
+noremap  ljA    c0
+noremap  ljD    c$
 noremap  ljW    cgg
 noremap  ljS    cG
 
@@ -169,13 +169,13 @@ nnoremap J      J
 
 nnoremap jj     dd
 
-nnoremap ja     d0
-nnoremap jd     d$
+nnoremap ja     d^
+nnoremap jd     dg_
 nnoremap jw     d(
 nnoremap js     d)
 
-nnoremap jA     d^
-nnoremap jD     dg_
+nnoremap jA     d0
+nnoremap jD     d$
 nnoremap jW     dgg
 nnoremap jS     dG
 
@@ -189,13 +189,13 @@ nnoremap i      y
 nnoremap I      Y
 nnoremap ii     Y
 
-nnoremap ia     y0
-nnoremap id     y$
+nnoremap ia     y^
+nnoremap id     yg_
 nnoremap iw     y(
 nnoremap is     y)
 
-nnoremap iA     y^
-nnoremap iD     yg_
+nnoremap iA     y0
+nnoremap iD     y$
 nnoremap iW     ygg
 nnoremap iS     yG
 
