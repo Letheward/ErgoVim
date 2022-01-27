@@ -5,9 +5,9 @@
    viewBox="0 0 4960 4080"
    version="1.1"
    id="svg8"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    sodipodi:docname="Cheatsheet.svg"
-   inkscape:export-filename="D:\Work Data\Code\Vim\ErgoVim\out\Cheatsheet.png"
+   inkscape:export-filename="D:\Work Data\Code\Vim\ErgoVim\img\Cheatsheet.png"
    inkscape:export-xdpi="48"
    inkscape:export-ydpi="48"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -26,11 +26,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="1719.6837"
-     inkscape:cy="1675.136"
+     inkscape:zoom="0.125"
+     inkscape:cx="2156"
+     inkscape:cy="472"
      inkscape:document-units="px"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="layer4"
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
@@ -60,7 +60,7 @@
      inkscape:snap-bbox-edge-midpoints="true"
      inkscape:snap-bbox-midpoints="true">
     <sodipodi:guide
-       position="4960,1920"
+       position="4960,2120"
        orientation="0,-4000.0002"
        id="guide6602" />
     <sodipodi:guide
@@ -133,205 +133,14 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Background"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
-       style="fill:#404040;stroke-width:9.99996;stroke-linecap:round"
+       style="fill:#404040;stroke-width:9.52575;stroke-linecap:round"
        id="rect6594"
        width="4960"
-       height="2160"
+       height="1960"
        x="0"
        y="0"
-       inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48" />
-    <rect
-       style="display:inline;fill:#202020;fill-opacity:1;stroke:none;stroke-width:10;stroke-linecap:round"
-       id="rect8691"
-       width="4960"
-       height="2160"
-       x="0"
-       y="1920"
-       inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48" />
-    <rect
-       style="display:inline;fill:#cc0000;stroke:none;stroke-width:10;stroke-linecap:round"
-       id="rect10877"
-       width="240"
-       height="160"
-       x="1300"
-       y="2160"
-       inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48" />
-    <rect
-       style="display:inline;fill:#ff6600;stroke:none;stroke-width:10;stroke-linecap:round"
-       id="rect10879"
-       width="240"
-       height="80"
-       x="1300"
-       y="2160"
-       inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48" />
-    <rect
-       style="display:inline;fill:#ff6600;stroke:none;stroke-width:10;stroke-linecap:round"
-       id="rect10881"
-       width="240"
-       height="160"
-       x="1000"
-       y="2160"
-       inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48" />
-    <rect
-       style="display:inline;fill:#ff9900;stroke:none;stroke-width:10;stroke-linecap:round"
-       id="rect10883"
-       width="240"
-       height="80"
-       x="1000"
-       y="2160"
-       inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48" />
-    <rect
-       style="display:inline;fill:#3366cc;stroke:none;stroke-width:10;stroke-linecap:round"
-       id="rect10903"
-       width="240"
-       height="160"
-       x="400"
-       y="2160"
-       inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48" />
-    <rect
-       style="display:inline;fill:#6699ff;stroke:none;stroke-width:10;stroke-linecap:round"
-       id="rect10905"
-       width="240"
-       height="80"
-       x="400"
-       y="2160"
-       inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48" />
-    <rect
-       style="display:inline;fill:#ff6600;stroke:none;stroke-width:9.99996;stroke-linecap:round"
-       id="rect10907"
-       width="240"
-       height="160"
-       x="1900"
-       y="2160"
-       inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48" />
-    <rect
-       style="display:inline;fill:#808080;stroke:none;stroke-width:9.99996;stroke-linecap:round"
-       id="rect10909"
-       width="240"
-       height="80"
-       x="1900"
-       y="2160"
-       inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48" />
-    <rect
-       style="display:inline;fill:#669900;stroke:none;stroke-width:10;stroke-linecap:round"
-       id="rect10915"
-       width="240"
-       height="160"
-       x="1600"
-       y="2160"
-       inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48" />
-    <rect
-       style="display:inline;fill:#ff9900;stroke:none;stroke-width:10;stroke-linecap:round"
-       id="rect10917"
-       width="240"
-       height="80"
-       x="1600"
-       y="2160"
-       inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48" />
-    <rect
-       style="display:inline;fill:#669900;stroke:none;stroke-width:10;stroke-linecap:round"
-       id="rect10919"
-       width="240"
-       height="160"
-       x="700"
-       y="2160"
-       inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48" />
-    <rect
-       style="display:inline;fill:#99cc33;stroke:none;stroke-width:10;stroke-linecap:round"
-       id="rect10921"
-       width="240"
-       height="80"
-       x="700"
-       y="2160"
-       inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48" />
-    <rect
-       style="display:inline;fill:#404040;stroke:none;stroke-width:10;stroke-linecap:round"
-       id="rect13785"
-       width="240"
-       height="160"
-       x="2200"
-       y="2160"
-       inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48" />
-    <rect
-       style="display:inline;fill:#808080;stroke:none;stroke-width:10;stroke-linecap:round"
-       id="rect13787"
-       width="240"
-       height="80"
-       x="2200"
-       y="2160"
-       inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48" />
-    <rect
-       style="display:inline;fill:#ff6600;stroke-width:10;stroke-linecap:round"
-       id="rect2522"
-       width="1960"
-       height="1000"
-       x="2600"
-       y="2860"
-       inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48" />
-    <rect
-       style="display:inline;fill:#669900;stroke-width:9.99995;stroke-linecap:round"
-       id="rect2524"
-       width="2040"
-       height="1400"
-       x="400"
-       y="2460"
-       inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48" />
-    <rect
-       style="display:inline;fill:#3366cc;stroke-width:9.99998;stroke-linecap:round"
-       id="rect2668"
-       width="1250"
-       height="550"
-       x="2600"
-       y="2160"
-       inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
-       inkscape:export-xdpi="48"
-       inkscape:export-ydpi="48" />
-    <rect
-       style="display:inline;fill:#cc0000;stroke-width:9.99997;stroke-linecap:round"
-       id="rect2794"
-       width="600"
-       height="550"
-       x="3960"
-       y="2160"
        inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
@@ -354,7 +163,7 @@
          sodipodi:role="line"
          x="4236.1606"
          y="261.86401"
-         id="tspan23428">for version 0.1.0</tspan></text>
+         id="tspan23428">for version 0.1.2</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#ffffff"
@@ -365,76 +174,6 @@
          id="tspan26075"
          x="4118.209"
          y="211.248">Cheatsheet by Letheward</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;display:inline;fill:#ffffff"
-       x="399.96799"
-       y="2377.248"
-       id="text20599"><tspan
-         sodipodi:role="line"
-         id="tspan20597"
-         x="399.96799"
-         y="2377.248">Navigation</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;display:inline;fill:#ffffff"
-       x="699.96814"
-       y="2377.248"
-       id="text23529"><tspan
-         sodipodi:role="line"
-         id="tspan23527"
-         x="699.96814"
-         y="2377.248">Mode</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;display:inline;fill:#ffffff"
-       x="999.96814"
-       y="2377.248"
-       id="text25117"><tspan
-         sodipodi:role="line"
-         id="tspan25115"
-         x="999.96814"
-         y="2377.248">Edit</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;display:inline;fill:#ffffff"
-       x="1300.688"
-       y="2377.248"
-       id="text26045"><tspan
-         sodipodi:role="line"
-         id="tspan26043"
-         x="1300.688"
-         y="2377.248">Modifier</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;display:inline;fill:#ffffff"
-       x="1599.968"
-       y="2377.248"
-       id="text32613"><tspan
-         sodipodi:role="line"
-         id="tspan32611"
-         x="1599.968"
-         y="2377.248">Hybrid</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;display:inline;fill:#ffffff"
-       x="1899.968"
-       y="2377.248"
-       id="text34907"><tspan
-         sodipodi:role="line"
-         id="tspan34905"
-         x="1899.968"
-         y="2377.248">Hybrid</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;display:inline;fill:#ffffff"
-       x="2199.968"
-       y="2377.248"
-       id="text35967"><tspan
-         sodipodi:role="line"
-         id="tspan35965"
-         x="2199.968"
-         y="2377.248">Empty</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -968,7 +707,8 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Keys"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="fill:#ff6600;stroke:none;stroke-width:9.99999;stroke-linecap:round"
        id="rect13627"
@@ -1640,7 +1380,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#404040;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#ff6600;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect10081"
        width="240"
        height="160"
@@ -1650,7 +1390,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#808080;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#ff9900;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect10083"
        width="240"
        height="80"
@@ -2459,6 +2199,46 @@
          id="tspan17302"
          x="5003"
          y="430" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.05;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';font-variant-ligatures:none;word-spacing:0px;fill:#ffffff;fill-opacity:1"
+       x="2281.1108"
+       y="1072.7081"
+       id="text1952"><tspan
+         sodipodi:role="line"
+         id="tspan1950"
+         x="2281.1108"
+         y="1072.7081">earlier</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:36px;line-height:1.05;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px"
+       x="2013.8401"
+       y="991.36371"
+       id="text6975"><tspan
+         sodipodi:role="line"
+         id="tspan6973"
+         x="2013.8401"
+         y="991.36371" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;line-height:1.05;font-family:Montserrat;-inkscape-font-specification:Montserrat;font-variant-ligatures:none;word-spacing:0px"
+       x="2020.9113"
+       y="986.41394"
+       id="text15399"><tspan
+         sodipodi:role="line"
+         id="tspan15397"
+         x="2020.9113"
+         y="986.41394" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;line-height:1.05;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;word-spacing:0px;fill:#ffffff"
+       x="2281.4971"
+       y="993.33197"
+       id="text18469"><tspan
+         sodipodi:role="line"
+         id="tspan18467"
+         x="2281.4971"
+         y="993.33197">later</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -3731,8 +3511,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Characters"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:72px;line-height:1.25;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Normal';word-spacing:0px;display:inline;fill:#ffffff;fill-opacity:1"
@@ -5201,12 +4980,14 @@
          y="2637.8616" /></text>
     <text
        xml:space="preserve"
-       style="font-size:32px;line-height:1.25;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Normal';font-variant-ligatures:none;word-spacing:0px;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px"
        x="1016.8196"
        y="1210.5668"
        id="text5753"><tspan
          sodipodi:role="line"
-         id="tspan7691" /></text>
+         id="tspan7691"
+         x="1016.8196"
+         y="1210.5668" /></text>
     <text
        xml:space="preserve"
        style="font-size:32px;line-height:1.25;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Normal';font-variant-ligatures:none;word-spacing:0px"
@@ -5792,62 +5573,5 @@
          id="tspan130849"
          x="2113.4324"
          y="1292.2078">external</tspan></text>
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer8"
-     inkscape:label="Text bottom"
-     style="display:inline"
-     sodipodi:insensitive="true">
-    <text
-       xml:space="preserve"
-       style="font-size:36px;line-height:1.25;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono, Normal';word-spacing:0px"
-       x="1397.2429"
-       y="3637.3569"
-       id="text40145"><tspan
-         sodipodi:role="line"
-         id="tspan40143"
-         x="1397.2429"
-         y="3637.3569" /></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;display:inline;fill:#ffffff"
-       x="472"
-       y="2562"
-       id="text132667"><tspan
-         sodipodi:role="line"
-         id="tspan132665"
-         x="472"
-         y="2562">Modes</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;display:inline;fill:#ffffff"
-       x="2660"
-       y="2250"
-       id="text135575"><tspan
-         sodipodi:role="line"
-         id="tspan135573"
-         x="2660"
-         y="2250">Additional Movements</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;display:inline;fill:#ffffff"
-       x="4008"
-       y="2242"
-       id="text137369"><tspan
-         sodipodi:role="line"
-         id="tspan137367"
-         x="4008"
-         y="2242">Modifier Keys</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;display:inline;fill:#ffffff"
-       x="2664"
-       y="2960"
-       id="text139947"><tspan
-         sodipodi:role="line"
-         id="tspan139945"
-         x="2664"
-         y="2960">Editing</tspan></text>
   </g>
 </svg>

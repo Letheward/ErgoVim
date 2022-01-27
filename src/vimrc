@@ -34,6 +34,9 @@ set hidden
 
 
 
+
+
+
 " Modes ===============================
 
 " Temporary Normal Mode
@@ -211,8 +214,8 @@ noremap  O      P
 noremap  u      u
 noremap  U      <C-R>
 
-noremap  t      :earlier 
-noremap  T      :later 
+noremap  y      :earlier 
+noremap  Y      :later 
 
 " Repeat
 noremap  h      .
@@ -491,7 +494,7 @@ noremap  vs                  :rightb<Space>term<Return>
 " if map terminal normal mode to <Esc>, every Shift-<Key> will break
 " like, vim, why?
 " also, you can not change input position in terminal normal mode 
-" so C-<Key> movements are still necessary
+" so C-<Key> movements are still nessasary
 tnoremap <C-L> <C-\><C-N>
 tnoremap <C-X> <C-W>w
 
