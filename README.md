@@ -6,7 +6,7 @@ ErgoVim is a ergonomic and efficient keymapping for Vim.
 
 Download from [release](https://github.com/Letheward/ErgoVim/releases) or clone this repository. Read the `vimrc` file before install.
 
-If you already have a setup, ignore everything under `Personal Customizations` in the `vimrc`, and copy the rest to your vim config. ErgoVim remap basically everykey, so it will probably break a lot of things, and you need to solve that yourself.
+If you already have a setup, ignore everything under `Personal Customizations` in the `vimrc`, and copy the rest to your vim config. ErgoVim remaps almost every key, so it will probably break a lot of things, and you need to solve that yourself.
 
 If you are new to Vim and don't have any setup, just throw the `vimrc` file to your vim config directory. You can find it by:
 
