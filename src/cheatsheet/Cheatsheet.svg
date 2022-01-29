@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.125"
-     inkscape:cx="2156"
-     inkscape:cy="472"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="2453.6605"
+     inkscape:cy="967.32208"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
      inkscape:document-rotation="0"
@@ -5384,7 +5384,7 @@
          sodipodi:role="line"
          id="tspan83378"
          x="3552.9204"
-         y="852">increment</tspan></text>
+         y="852">decrement</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:32px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;word-spacing:0px;fill:#ffffff"
@@ -5394,7 +5394,7 @@
          sodipodi:role="line"
          id="tspan84240"
          x="3833.4646"
-         y="852">decrement</tspan></text>
+         y="852">increment</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:32px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;word-spacing:0px;fill:#ffffff"
@@ -5404,11 +5404,11 @@
          sodipodi:role="line"
          id="tspan85420"
          x="3552.9204"
-         y="752.20801">list </tspan><tspan
+         y="752.20801">list</tspan><tspan
          sodipodi:role="line"
          x="3552.9204"
          y="792.20801"
-         id="tspan87444">increment</tspan></text>
+         id="tspan87444">decrement</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:32px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;word-spacing:0px;fill:#ffffff"
@@ -5422,7 +5422,7 @@
          sodipodi:role="line"
          x="3833.4646"
          y="792.20801"
-         id="tspan88376">decrement</tspan></text>
+         id="tspan88376">increment</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:32px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;word-spacing:0px;fill:#ffffff"
