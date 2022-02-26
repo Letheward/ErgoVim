@@ -361,7 +361,7 @@ noremap  ne    ;
 
 " Macro ===============================
 " TODO
-noremap  <C-`> q
+noremap  <C-`> qa
 noremap  H     @a
 
 
