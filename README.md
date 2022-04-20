@@ -4,7 +4,12 @@ ErgoVim is a ergonomic and efficient keymapping for Vim.
 
 ## How to Install
 
-Download from [release](https://github.com/Letheward/ErgoVim/releases) or clone this repository. Read the `vimrc` file before install.
+You can get it by:
+- Download from [release](https://github.com/Letheward/ErgoVim/releases) 
+- Clone this repository 
+- Just copy the content in the `vimrc` file
+
+Read the `vimrc` file before installing.
 
 If you already have a setup, ignore everything under `Personal Customizations` in the `vimrc`, and copy the rest to your vim config. ErgoVim remaps almost every key, so it will probably break a lot of things, and you need to solve that yourself.
 
@@ -100,7 +105,7 @@ Action Keys:
 Examples:
 
 - `xna`: open a *window* to edit *new file*, to the *left*.  
-- `Zl`: *entering* the fold.  
+- `ZL`: *entering* the fold.  
 - `nk`: *cancel* search highlight.   
 - `ni`: *search* using the word under *current* cursor location. 
 
