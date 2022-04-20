@@ -1,7 +1,8 @@
 " ErgoVim
-"
-" version 0.1.2
 " =====================================
+
+
+
 
 " Personal Customizations =============
 
@@ -12,6 +13,7 @@ set laststatus=2
 set showcmd
 set showmode
 set wrap!
+set mouse=a
 
 " Tabs
 set ai
@@ -30,7 +32,6 @@ set backspace=indent,eol,start
 set cpo-=<
 set nocompatible
 set hidden
-
 
 
 
@@ -85,9 +86,10 @@ noremap  <C-D>  $l
 noremap  <C-W>  gg
 noremap  <C-S>  G
 
-" Matching Pairs
-" TODO
-noremap  <C-Q>  %
+" Matching Brackets
+" TODO: not really helpful
+" noremap  t %
+" vnoremap t %
 
 
 
@@ -239,6 +241,7 @@ nnoremap j<Space>d   WgEldw
 nnoremap j<Space>w   {{}d)
 nnoremap j<Space>s   {}d)
 
+
 " Text Object
 nnoremap jkq  di[
 nnoremap jlq  da[
@@ -317,10 +320,10 @@ nnoremap ilv  yap
 
 
 " Auto-complete ======================
+" TODO
 inoremap <S-Tab>    <C-X><C-I>
 inoremap <S-Return> <C-N>
 
-" TODO
 
 
 
@@ -336,8 +339,10 @@ noremap  N     n
 noremap  n     N
 
 noremap  nl    /
-noremap  ni    #*
 noremap  nk    :noh<Return>
+
+noremap  ni    #*
+noremap  nI    y/<C-R>"<Esc>N
 
 " TODO
 noremap  nj    :s//
@@ -374,7 +379,7 @@ noremap  g     !
 
 
 
-" Marker ==============================
+" Mark ==============================
 " TODO: This vim feature is very bad-designed and unusable, maybe will remove it
 noremap  b     m
 noremap  B     `
@@ -386,8 +391,8 @@ noremap  B     `
 " TODO: a bit hard to type
 noremap  Z     <NOP>
 noremap  ZZ    zf
-noremap  Zl    zo
-noremap  Zk    zR
+noremap  ZL    zo
+noremap  ZK    zR
 
 
 
@@ -508,7 +513,8 @@ tnoremap <C-E> <C-Right>
 tnoremap <C-R> <C-Up>
 tnoremap <C-F> <C-Down>
 
-
+tnoremap <C-O> <C-W>""
+tnoremap <C-K> <BS>
 
 
 " Command Line ========================
@@ -524,6 +530,9 @@ cnoremap <C-E> <C-Right>
 cnoremap <C-R> <C-Up>
 cnoremap <C-F> <C-Down>
 
+cnoremap <C-O> <C-R>"
+cnoremap <C-K> <BS>
+
 
 
 
@@ -534,6 +543,17 @@ cnoremap <C-F> <C-Down>
 
 
 " Misc ================================
+
+" quick exit
+noremap  <C-Q><C-Q><C-Q> :qa!<Return>
+
+
+" input special keys
+inoremap <C-^> <C-V>
+cnoremap <C-^> <C-V>
+tnoremap <C-^> <C-V>
+
+
 
 " Function Keys
 " TODO
@@ -552,16 +572,32 @@ inoremap <F4>     <C-O>:ls<Return>
 noremap  <F5>          :set wrap!<Return>
 inoremap <F5>     <C-O>:set wrap!<Return>
 
+
 " Save Normal People
 noremap  <C-Z>    u
 noremap  <C-Y>    <C-R>
+
+noremap  <C-F>    /
+
+" TODO: C-M will map to Enter and break that, so we choose this
+noremap  <C-B>    ggvG
 
 noremap  <C-X>    "*d
 noremap  <C-C>    "*y
 noremap  <C-V>    "*p
 
-" wtf is this crap (empty for now)
+inoremap <C-V>    <C-O>"*p
+cnoremap <C-V>    <MiddleMouse>
+tnoremap <C-V>    <C-W>"*
 
 
+
+" Trash Can 
+
+cnoremap <C-Q> <NOP>
+inoremap <C-Q> <NOP>
+tnoremap <C-Q> <NOP>
+
+noremap  B     <NOP>
 
 
