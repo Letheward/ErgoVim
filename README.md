@@ -4,9 +4,9 @@ ErgoVim is a ergonomic and efficient keymapping for Vim.
 
 ## How to Install
 
-You can get it by:
-- Download from [release](https://github.com/Letheward/ErgoVim/releases) 
+You can get it by either:
 - Clone this repository 
+- Download from [release](https://github.com/Letheward/ErgoVim/releases) 
 - Just copy the content in the `vimrc` file
 
 Read the `vimrc` file before installing.
@@ -32,7 +32,7 @@ If you are new to Vim and don't have any setup, just throw the `vimrc` file to y
     ~~~
     (you may need to hit `Enter` to scroll down to see all of it)
 
-    Choose the location of `user vimrc file` or `2nd user vimrc file` to install. (you may need to create a folder and/or rename `vimrc`, base on where you want)
+    Choose the location of `user vimrc file` or `2nd user vimrc file` to install. (you may need to create a folder and/or rename `vimrc` as the `:version` output suggested, base on where you want)
 
     If you are using MinGW64, you can directly replace `system vimrc file`. It's in your MinGW64 distro's `/etc/`. 
 
@@ -95,7 +95,7 @@ Direction Keys:
 
 Action Keys:
 
-- (same as leader, like `jj`, `ii`, `xx`) do the basic stuff
+- (same key twice or capitalized, like `jj`, `ii`, `X`) do the most common action
 - `l` enter, confirm, do things
 - `k` cancel, delete, exit, close
 - `j` change, cut, join
@@ -105,13 +105,13 @@ Action Keys:
 Examples:
 
 - `xna`: open a *window* to edit *new file*, to the *left*.  
-- `ZL`: *entering* the fold.  
 - `nk`: *cancel* search highlight.   
 - `ni`: *search* using the word under *current* cursor location. 
 
 ## Known Issues
 
 - `CapsLock` will change key commands to uppercase key commands.
+- System clipboard interfacing on linux doesn't work
 - Some commands will behave like the old way if it's hold rather than tapped.
 - Search back `n` will perform once more if hold, wait for it or hit `N` to cancel.
 - Default small version Vim miss many features, like text object, auto-complete, etc. Using key sequences for those features may cause unwanted behaviors.

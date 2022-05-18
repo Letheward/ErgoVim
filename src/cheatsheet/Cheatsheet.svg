@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="2453.6605"
-     inkscape:cy="967.32208"
+     inkscape:zoom="1"
+     inkscape:cx="4031.5"
+     inkscape:cy="526"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
      inkscape:document-rotation="0"
@@ -141,7 +141,7 @@
        height="1960"
        x="0"
        y="0"
-       inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
+       inkscape:export-filename="D:\Work Data\Code\Vim\ErgoVim\img\Cheatsheet.png"
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <text
@@ -163,7 +163,7 @@
          sodipodi:role="line"
          x="4236.1606"
          y="261.86401"
-         id="tspan23428">for version 0.1.2</tspan></text>
+         id="tspan23428">for version 0.2.0</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#ffffff"
@@ -707,8 +707,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Keys"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
        style="fill:#ff6600;stroke:none;stroke-width:9.99999;stroke-linecap:round"
        id="rect13627"
@@ -760,7 +759,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#3366cc;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#404040;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect9075"
        width="240"
        height="160"
@@ -770,7 +769,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#6699ff;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#808080;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect9077"
        width="240"
        height="80"
@@ -780,7 +779,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#3366cc;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#404040;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect9161"
        width="240"
        height="160"
@@ -790,7 +789,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#6699ff;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#808080;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect9163"
        width="240"
        height="80"
@@ -800,7 +799,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#3366cc;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#404040;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect9165"
        width="240"
        height="160"
@@ -810,7 +809,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#6699ff;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#808080;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect9167"
        width="240"
        height="80"
@@ -840,7 +839,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#404040;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#3366cc;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect9259"
        width="240"
        height="160"
@@ -850,7 +849,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#808080;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#6699ff;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect9261"
        width="240"
        height="80"
@@ -860,7 +859,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#404040;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#3366cc;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect9265"
        width="240"
        height="160"
@@ -870,7 +869,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#808080;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#6699ff;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect9267"
        width="240"
        height="80"
@@ -880,7 +879,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#404040;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#3366cc;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect9269"
        width="240"
        height="160"
@@ -890,7 +889,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#808080;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#6699ff;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect9271"
        width="240"
        height="80"
@@ -1250,7 +1249,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#808080;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#ff9900;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect10042"
        width="520"
        height="80"
@@ -1360,7 +1359,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#404040;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#3366cc;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect10077"
        width="240"
        height="160"
@@ -1370,7 +1369,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#808080;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#6699ff;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect10079"
        width="240"
        height="80"
@@ -1379,6 +1378,26 @@
        inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;display:inline;fill:#ffffff"
+       x="1997.2786"
+       y="1071.458"
+       id="text21565-3"><tspan
+         sodipodi:role="line"
+         id="tspan21563-8"
+         x="1997.2786"
+         y="1071.458">word end</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;word-spacing:0px;display:inline;fill:#ffffff"
+       x="1996.3506"
+       y="991.45801"
+       id="text22143-6"><tspan
+         sodipodi:role="line"
+         id="tspan22141-1"
+         x="1996.3506"
+         y="991.45801">WORD end</tspan></text>
     <rect
        style="fill:#ff6600;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect10081"
@@ -1420,7 +1439,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#669900;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#ff6600;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect10089"
        width="240"
        height="160"
@@ -1640,7 +1659,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#669900;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#ff6600;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect10145"
        width="240"
        height="160"
@@ -1650,7 +1669,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#808080;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#ff9900;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect10147"
        width="240"
        height="80"
@@ -1659,6 +1678,16 @@
        inkscape:export-filename="C:\Users\Letheward\Desktop\rect6594.png"
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
+    <text
+       xml:space="preserve"
+       style="font-size:32px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;word-spacing:0px;display:inline;fill:#ffffff"
+       x="2113.4319"
+       y="1212.4906"
+       id="text130851-5"><tspan
+         sodipodi:role="line"
+         id="tspan130849-2"
+         x="2113.4319"
+         y="1212.4906">external</tspan></text>
     <rect
        style="fill:#ff6600;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect10149"
@@ -1680,7 +1709,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#669900;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#ff6600;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect10153"
        width="240"
        height="160"
@@ -1720,7 +1749,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#669900;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#ff6600;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect10161"
        width="240"
        height="160"
@@ -1830,7 +1859,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#99cc33;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#6699ff;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect10199"
        width="240"
        height="80"
@@ -1850,7 +1879,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#808080;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#6699ff;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect10203"
        width="240"
        height="80"
@@ -1870,7 +1899,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#808080;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#6699ff;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect10207"
        width="240"
        height="80"
@@ -1890,7 +1919,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#808080;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#6699ff;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect10211"
        width="240"
        height="80"
@@ -1910,7 +1939,7 @@
        inkscape:export-xdpi="48"
        inkscape:export-ydpi="48" />
     <rect
-       style="fill:#99cc33;stroke:none;stroke-width:10;stroke-linecap:round"
+       style="fill:#6699ff;stroke:none;stroke-width:10;stroke-linecap:round"
        id="rect10215"
        width="240"
        height="80"
@@ -5140,16 +5169,6 @@
     <text
        xml:space="preserve"
        style="font-size:32px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;word-spacing:0px;fill:#ffffff"
-       x="1112.504"
-       y="1432.2078"
-       id="text45282"><tspan
-         sodipodi:role="line"
-         id="tspan45280"
-         x="1112.504"
-         y="1432.2078">fold</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:32px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;word-spacing:0px;fill:#ffffff"
        x="1112.536"
        y="1512.2078"
        id="text46132"><tspan
@@ -5187,6 +5206,46 @@
          id="tspan49802"
          x="1952.6965"
          y="1512.2078">terminal</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;word-spacing:0px;display:inline;fill:#ffffff"
+       x="1112.536"
+       y="1432.2078"
+       id="text46132-0"><tspan
+         sodipodi:role="line"
+         id="tspan46130-3"
+         x="1112.536"
+         y="1432.2078">buffer next</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;word-spacing:0px;display:inline;fill:#ffffff"
+       x="1394.36"
+       y="1432.2078"
+       id="text46916-3"><tspan
+         sodipodi:role="line"
+         id="tspan46914-1"
+         x="1394.36"
+         y="1432.2078">window next</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;word-spacing:0px;display:inline;fill:#ffffff"
+       x="1672.6965"
+       y="1432.2078"
+       id="text47480-0"><tspan
+         sodipodi:role="line"
+         id="tspan47478-9"
+         x="1672.6965"
+         y="1432.2078">tab next</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;word-spacing:0px;display:inline;fill:#ffffff"
+       x="1952.6965"
+       y="1432.2078"
+       id="text49804-8"><tspan
+         sodipodi:role="line"
+         id="tspan49802-5"
+         x="1952.6965"
+         y="1432.2078">terminal</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:32px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;word-spacing:0px;fill:#ffffff"
@@ -5316,7 +5375,7 @@
          sodipodi:role="line"
          id="tspan72384"
          x="3112.5359"
-         y="1072.2079">paste down</tspan></text>
+         y="1072.2079">paste after</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:32px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;word-spacing:0px;fill:#ffffff"
@@ -5326,7 +5385,7 @@
          sodipodi:role="line"
          id="tspan73684"
          x="3112.5359"
-         y="992.20795">paste up</tspan></text>
+         y="992.20795">paste before</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:32px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;word-spacing:0px;fill:#ffffff"
@@ -5404,7 +5463,7 @@
          sodipodi:role="line"
          id="tspan85420"
          x="3552.9204"
-         y="752.20801">list</tspan><tspan
+         y="752.20801">accumulated</tspan><tspan
          sodipodi:role="line"
          x="3552.9204"
          y="792.20801"
@@ -5418,7 +5477,7 @@
          sodipodi:role="line"
          id="tspan86348"
          x="3833.4646"
-         y="752.20801">list </tspan><tspan
+         y="752.20801">accumulated </tspan><tspan
          sodipodi:role="line"
          x="3833.4646"
          y="792.20801"
@@ -5516,52 +5575,52 @@
     <text
        xml:space="preserve"
        style="font-size:32px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;word-spacing:0px;fill:#ffffff"
-       x="977.5"
+       x="2237.5"
        y="530.83197"
        id="text123069"><tspan
          sodipodi:role="line"
          id="tspan123067"
-         x="977.5"
+         x="2237.5"
          y="530.83197">registers</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:32px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;word-spacing:0px;fill:#ffffff"
-       x="1256.5"
+       x="2516.5"
        y="530.83197"
        id="text124315"><tspan
          sodipodi:role="line"
          id="tspan124313"
-         x="1256.5"
+         x="2516.5"
          y="530.83197">marks</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:32px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;word-spacing:0px;fill:#ffffff"
-       x="1539.5"
+       x="2799.5"
        y="530.83197"
        id="text125947"><tspan
          sodipodi:role="line"
          id="tspan125945"
-         x="1539.5"
+         x="2799.5"
          y="530.83197">tags</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:32px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;word-spacing:0px;fill:#ffffff"
-       x="1820.5"
+       x="3080.5"
        y="530.83197"
        id="text127205"><tspan
          sodipodi:role="line"
          id="tspan127203"
-         x="1820.5"
+         x="3080.5"
          y="530.83197">buffers</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:32px;line-height:1.25;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:none;word-spacing:0px;fill:#ffffff"
-       x="2240.5"
+       x="980.5"
        y="530.83197"
        id="text128517"><tspan
          sodipodi:role="line"
          id="tspan128515"
-         x="2240.5"
+         x="980.5"
          y="530.83197">toggle line wrap</tspan></text>
     <text
        xml:space="preserve"

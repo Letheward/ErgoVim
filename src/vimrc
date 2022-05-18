@@ -1,10 +1,9 @@
 " ErgoVim
-" =====================================
+" =======
 
 
 
-
-" Personal Customizations =============
+" ==== Personal Customizations ====
 
 " Interface
 set number
@@ -38,7 +37,7 @@ set hidden
 
 
 
-" Modes ===============================
+" ==== Modes ====
 
 " Temporary Normal Mode
 " TODO
@@ -51,7 +50,7 @@ noremap  ~      Q
 
 
 
-" Navigation ==========================
+" ==== Navigation ====
 
 " Basic Cursor Move
 noremap  a      h
@@ -77,7 +76,8 @@ noremap  W      <C-B>
 noremap  S      <C-F> 
 
 " End
-noremap  <C-E>  El
+noremap  t      el
+noremap  T      El
 
 noremap  A      ^
 noremap  D      g_l
@@ -86,15 +86,15 @@ noremap  <C-D>  $l
 noremap  <C-W>  gg
 noremap  <C-S>  G
 
-" Matching Brackets
-" TODO: not really helpful
-" noremap  t %
-" vnoremap t %
+" Mark (only 1 register, for fast navigation, otherwise it's too clunky to be useful
+noremap  bi      ma
+noremap  bb      `a     
+noremap  B       `a     
 
 
 
 
-" Edit ================================
+" ==== Edit ====
 
 " Insert
 noremap  l      i
@@ -154,6 +154,11 @@ noremap  m      v
 noremap  M      V
 noremap  MM     <C-V>
 
+noremap  MI     {v}
+noremap  Mi     (v)
+noremap  ML     0v$h
+noremap  MA     ggvG$
+
 vnoremap j      d
 vnoremap i      y
 
@@ -171,6 +176,7 @@ vnoremap k      "_x
 " Cut
 nnoremap j      d
 nnoremap J      J
+nnoremap <C-J>  gJ
 
 nnoremap jj     dd
 
@@ -223,8 +229,8 @@ noremap  Y      :later
 noremap  h      .
 
 " Indentation
-nnoremap <Tab>   >>
-nnoremap <S-Tab> <<
+nnoremap <Tab>     >>
+nnoremap <S-Tab>   <<
 
 " Space Action
 noremap  <Return>    i<Return><Esc>
@@ -319,7 +325,7 @@ nnoremap ilv  yap
 
 
 
-" Auto-complete ======================
+" ==== Auto-complete ====
 " TODO
 inoremap <S-Tab>    <C-X><C-I>
 inoremap <S-Return> <C-N>
@@ -328,13 +334,13 @@ inoremap <S-Return> <C-N>
 
 
 
-" Registers ==========================
+" ==== Registers ====
 " TODO
 
 
 
 
-" Search ==============================
+" ==== Search ====
 noremap  N     n
 noremap  n     N
 
@@ -364,7 +370,7 @@ noremap  ne    ;
 
 
 
-" Macro ===============================
+" ==== Macro ====
 " TODO
 noremap  <C-`> qa
 noremap  H     @a
@@ -372,38 +378,32 @@ noremap  H     @a
 
 
 
-" External ============================
+" ==== External ====
 " TODO
-noremap  g     !
+noremap  gg     !k
 
 
 
 
-" Mark ==============================
-" TODO: This vim feature is very bad-designed and unusable, maybe will remove it
-noremap  b     m
-noremap  B     `
+
+
+" ==== Folding ====
+" TODO: not really useful, hard to type
+"noremap  Z     <NOP>
+"noremap  ZZ    zf
+"noremap  ZL    zo
+"noremap  ZK    zR
 
 
 
 
-" Folding =============================
-" TODO: a bit hard to type
-noremap  Z     <NOP>
-noremap  ZZ    zf
-noremap  ZL    zo
-noremap  ZK    zR
+" ==== Buffer Management ====
 
-
-
-
-" File and Window Management ==========
-
-" Buffer
+" ---- Buffer ---- 
 noremap  z     <NOP>
-noremap  Z     <NOP>
 
 noremap  zz    :bn<Return>
+noremap  Z     :bn<Return>
 
 noremap  zd    :bn<Return>
 noremap  za    :bp<Return>
@@ -413,30 +413,28 @@ noremap  zs    :blast<Return>
 noremap  zl    :buffer<Space>
 noremap  zj    :ball<Return>
 noremap  zk    :bd<Space>
-noremap  zn    :badd<Space>
+noremap  zn    :badd<SpaceB>
 
-" Window
+" ---- Window ---- 
 noremap  x     <NOP>
-noremap  X     <NOP>
 
 noremap  xx    <C-W>w
+noremap  X     <C-W>w
 
 noremap  xl    <C-W>o
 noremap  xk    <C-W>c
 
-noremap  xa    <C-W>h
-noremap  xd    <C-W>l
-noremap  xw    <C-W>k
-noremap  xs    <C-W>j
-
-noremap  xc    <C-W>T
+noremap  xA   <C-W>h
+noremap  xD   <C-W>l
+noremap  xW   <C-W>k
+noremap  xS   <C-W>j
 
 noremap  xo    <C-W>=
 
-noremap  xq    <C-W>10<
-noremap  xe    <C-W>10>
-noremap  xr    :res +5<return>
-noremap  xf    :res -5<return>
+noremap  xa    <C-W>10<
+noremap  xd    <C-W>10>
+noremap  xw    :res +5<return>
+noremap  xs    :res -5<return>
 
 noremap  xi    <NOP>
 
@@ -446,6 +444,8 @@ noremap  xiw   <C-W>s<C-W>j
 noremap  xis   <C-W>s
 
 noremap  xn    <NOP>
+
+noremap  xc    <C-W>T
 
 noremap  xna   :lefta<Space>vnew<Space>
 noremap  xnd   :rightb<Space>vnew<Space>
@@ -464,10 +464,10 @@ noremap  xjd   <C-W>L
 noremap  xjw   <C-W>K
 noremap  xjs   <C-W>J
 
-" Tab
+" ---- Tab ---- 
 noremap  c     <NOP>
-noremap  C     <NOP>
 
+noremap  C     :tabnext<Return>
 noremap  cc    :tabnext<Return>
 
 noremap  ca    :tabprevious<Return>
@@ -475,31 +475,36 @@ noremap  cd    :tabnext<Return>
 noremap  cw    :tabfirst<Return>
 noremap  cs    :tablast<Return>
 
+noremap  cn    :tabnew<Space>
+noremap  ci    :tab split<Return>
 noremap  cl    :tabonly<Return>
 noremap  ck    :tabclose<Return>
-noremap  cn    :tabnew<Space>
 
 noremap  cja   :-tabmove<Return>
 noremap  cjd   :+tabmove<Return>
 noremap  cjw   :0tabmove<Return>
 noremap  cjs   :tabmove<Return>
 
-" Terminal
-" TODO
+
+
+
+
+" ==== Terminal ====  
+" TODO: vim and neovim have different behaviours
 noremap  v     <NOP>
-noremap  V     <NOP>
 
 noremap  vv                  :rightb<Space>term<Return>
+noremap  V                   :rightb<Space>term<Return>
 
 noremap  va    :lefta<Space>vertical<Space>term<Return>
 noremap  vd   :rightb<Space>vertical<Space>term<Return>
 noremap  vw                               :term<Return>
 noremap  vs                  :rightb<Space>term<Return>
 
-" if map terminal normal mode to <Esc>, every Shift-<Key> will break
-" like, vim, why?
-" also, you can not change input position in terminal normal mode 
-" so C-<Key> movements are still nessasary
+" If map terminal normal mode to <Esc>, every Shift-<Key> will break. Vim, why?
+
+" Also, you can not change input position in terminal normal mode 
+" so these C-<Key> movements are still nessasary
 tnoremap <C-L> <C-\><C-N>
 tnoremap <C-X> <C-W>w
 
@@ -516,8 +521,7 @@ tnoremap <C-F> <C-Down>
 tnoremap <C-O> <C-W>""
 tnoremap <C-K> <BS>
 
-
-" Command Line ========================
+" ==== Command Line ====
 cnoremap <C-L> <C-F>
 
 cnoremap <C-A> <Left>
@@ -536,13 +540,13 @@ cnoremap <C-K> <BS>
 
 
 
-" Diff ================================
+" ==== Diff ====
 " TODO
 
 
 
 
-" Misc ================================
+" ==== Misc ====
 
 " quick exit
 noremap  <C-Q><C-Q><C-Q> :qa!<Return>
@@ -557,20 +561,21 @@ tnoremap <C-^> <C-V>
 
 " Function Keys
 " TODO
-noremap  <F1>          :registers<Return>
-inoremap <F1>     <C-O>:registers<Return>
+noremap  <F1>          :set wrap!<Return>
+inoremap <F1>     <C-O>:set wrap!<Return>
 
-noremap  <F2>          :marks<Return>
-inoremap <F2>     <C-O>:marks<Return>
+noremap  <F5>          :registers<Return>
+inoremap <F5>     <C-O>:registers<Return>
 
-noremap  <F3>          :tags<Return>
-inoremap <F3>     <C-O>:tags<Return>
+noremap  <F6>          :marks<Return>
+inoremap <F6>     <C-O>:marks<Return>
 
-noremap  <F4>          :ls<Return>
-inoremap <F4>     <C-O>:ls<Return>
+noremap  <F7>          :tags<Return>
+inoremap <F7>     <C-O>:tags<Return>
 
-noremap  <F5>          :set wrap!<Return>
-inoremap <F5>     <C-O>:set wrap!<Return>
+noremap  <F8>          :ls<Return>
+inoremap <F8>     <C-O>:ls<Return>
+
 
 
 " Save Normal People
@@ -579,9 +584,7 @@ noremap  <C-Y>    <C-R>
 
 noremap  <C-F>    /
 
-" TODO: C-M will map to Enter and break that, so we choose this
-noremap  <C-B>    ggvG
-
+" TODO: clipboard on linux not working
 noremap  <C-X>    "*d
 noremap  <C-C>    "*y
 noremap  <C-V>    "*p
@@ -595,9 +598,6 @@ tnoremap <C-V>    <C-W>"*
 " Trash Can 
 
 cnoremap <C-Q> <NOP>
-inoremap <C-Q> <NOP>
 tnoremap <C-Q> <NOP>
-
-noremap  B     <NOP>
 
 
