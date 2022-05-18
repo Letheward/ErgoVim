@@ -381,6 +381,7 @@ noremap  H     @a
 " ==== External ====
 " TODO
 noremap  gg     !k
+noremap  G      !!
 
 
 
@@ -413,7 +414,7 @@ noremap  zs    :blast<Return>
 noremap  zl    :buffer<Space>
 noremap  zj    :ball<Return>
 noremap  zk    :bd<Space>
-noremap  zn    :badd<SpaceB>
+noremap  zn    :badd<Space>
 
 " ---- Window ---- 
 noremap  x     <NOP>
@@ -502,7 +503,6 @@ noremap  vw                               :term<Return>
 noremap  vs                  :rightb<Space>term<Return>
 
 " If map terminal normal mode to <Esc>, every Shift-<Key> will break. Vim, why?
-
 " Also, you can not change input position in terminal normal mode 
 " so these C-<Key> movements are still nessasary
 tnoremap <C-L> <C-\><C-N>
