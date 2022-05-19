@@ -1,6 +1,8 @@
 # ErgoVim
 
-ErgoVim is a ergonomic and efficient keymapping for Vim.
+ErgoVim is a ergonomic and efficient keymapping for Vim/Neovim. 
+
+It swaps out the `vi` style keymap layout completely to be more consistent and easier to learn/use. It also binds many commonly used actions as macros to key sequences.
 
 ## How to Install
 
@@ -11,7 +13,7 @@ You can get it by either:
 
 Read the `vimrc` file before installing.
 
-If you already have a setup, ignore everything under `Personal Customizations` in the `vimrc`, and copy the rest to your vim config. ErgoVim remaps almost every key, so it will probably break a lot of things, and you need to solve that yourself.
+If you already have a setup, you may not prefer some settings under `Personal Customizations` in the `vimrc`, so you need to omit them and copy the rest to your vim config. ErgoVim remaps almost every key, so it will probably break a lot of things, and you need to solve that yourself.
 
 If you are new to Vim and don't have any setup, just throw the `vimrc` file to your vim config directory. You can find it by:
 
@@ -51,9 +53,34 @@ If you are new to Vim and don't have any setup, just throw the `vimrc` file to y
 ![cheatsheet](img/Cheatsheet.png)
 (Cheatsheet for ErgoVim, right-click to download if text is too small on your device. This is also included in [release](https://github.com/Letheward/ErgoVim/releases))
 
-### Basic Walkthrough
+For complete reference, see the `vimrc` file itself (not totally documented yet!).
 
-- Part I
+### Semantics
+
+Action Keys:
+
+- `l` enter, confirm
+- `k` cancel, delete, exit, close
+- `j` change, cut, move, join
+- `i` copy, identity
+- `n` new
+- Same key twice or capitalized (like `jj`, `ii`, `X`): do the most common action
+
+Action Keys with Directions:
+
+- `ld` is insert to the *right* of this line.
+- `jf` is cut *down the block*.
+- `ie` is copy until the *word right*.
+
+Examples:
+
+- `nk`: *cancel* search highlight.   
+- `xna`: open a *window* to edit *new file*, to the *left*.  
+- `cjd`: *move* this *tab* to the *right*. 
+
+### A Basic Walkthrough
+
+- **Part I: Navigation**
 1. Open Vim. Naturally rest your left hand on `wasd`, right hand on `ijkl`.
 1. Hit `ll` to enter **Insert Mode**.
 1. Enter some gibberish, need to have spaces and blanklines, and long enough that you need to scroll the screen.
@@ -65,47 +92,30 @@ If you are new to Vim and don't have any setup, just throw the `vimrc` file to y
 1. `Ctrl-a` and `Ctrl-d` to go to hard line beginning and end.
 1. `Ctrl-w` and `Ctrl-s` to go to file beginning and end.
 
-- Part II
+- **Part II: Editing**
 1. `k` to backspace, `K` to delete.
 1. `u` to undo, `U` to redo.
 1. `m` to enter **Visual Mode** (this is just selecting) and back. Using `Esc` also goes back to **Normal Mode**.
 1. Using all the movement keys in Part I to change selection range in **Visual Mode**.
 1. In **Visual Mode**, `j` to cut selection, `i` to copy selection.
+1. In **Visual Mode**, `Ctrl-x`, `Ctrl-c` to cut, copy to system clipboard. 
 1. In **Normal Mode**, `jj` to cut a line, `ii` to copy a line. 
 1. In **Normal Mode**, `o` to paste after cursor or line, `O` to paste before cursor or line. 
-1. In **Visual Mode**, `Ctrl-x`, `Ctrl-c` to cut, copy to system clipboard. 
 1. In **Normal Mode**, `Ctrl-v` to paste from system clipboard.
+1. In **Normal Mode**, `h` to repeat last action.
 
-- Part III
-1. Hit \` Key to enter Command Line Mode.
+- **Part III: Window Management**
+1. In **Normal Mode**, Hit \` Key to enter Command Line.
 1. Type `help cmdline` and hit `Enter`.
 1. `xid` to open a copy of that window to the right.
-1. `xx` to change window.
+1. `xx` or `X` to change window.
+1. `xja` to move current window to the left of screen.
+1. `xa`, `xd`, `xw`, `xs` to change current window size.
+1. `xo` to make all window sizes even.
 1. `xk` to close current window.
 1. `xl` to make current window fullscreen.
+1. In **Normal Mode**, Hit `Ctrl-q` 3 times to quick exit (will not save files!).
 
-### Semantics
-
-Direction Keys:
-
-- `ld` is insert to the *right* of this line.
-- `jf` is cut *down the block*.
-- `ie` is copy until the *word right*.
-
-Action Keys:
-
-- (same key twice or capitalized, like `jj`, `ii`, `X`) do the most common action
-- `l` enter, confirm, do things
-- `k` cancel, delete, exit, close
-- `j` change, cut, join
-- `i` copy, identity
-- `n` new
-
-Examples:
-
-- `xna`: open a *window* to edit *new file*, to the *left*.  
-- `nk`: *cancel* search highlight.   
-- `ni`: *search* using the word under *current* cursor location. 
 
 ## Known Issues
 
