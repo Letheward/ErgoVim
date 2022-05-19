@@ -81,7 +81,6 @@ If you are new to Vim and don't have any setup, just throw the `vimrc` file to y
 1. Type `help cmdline` and hit `Enter`.
 1. `xid` to open a copy of that window to the right.
 1. `xx` to change window.
-1. `xs` to go to window below.
 1. `xk` to close current window.
 1. `xl` to make current window fullscreen.
 
