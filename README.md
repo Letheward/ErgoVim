@@ -8,8 +8,8 @@ It swaps out the `vi` style keymap layout completely to be more consistent and e
 
 You can get it by either:
 - Clone this repository 
-- Download from [release](https://github.com/Letheward/ErgoVim/releases) 
 - Just copy the content in the `vimrc` file
+- Download from [release](https://github.com/Letheward/ErgoVim/releases) (may be a little outdated)
 
 Read the `vimrc` file before installing.
 
