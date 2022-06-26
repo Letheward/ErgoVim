@@ -348,7 +348,7 @@ noremap  nl    /
 noremap  nk    :noh<Return>
 
 noremap  ni    #*
-noremap  nI    y/<C-R>"<Esc>N
+vnoremap ni    y/<C-R>"<Esc>N
 
 " TODO
 noremap  nj    :s//
