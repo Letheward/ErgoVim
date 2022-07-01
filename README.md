@@ -48,7 +48,7 @@ If you are new to Vim and don't have any setup, just throw the `vimrc` file to y
     
 ## How to Use
 
-> ErgoVim assume you use standard US style keyboard. If you use UK style or DVORAK keyboard, or something like HHKB, it may not work as intented.  
+> ErgoVim assume you use standard US style keyboard. If you use UK style or DVORAK keyboard, or something like HHKB, it may not work as intended.  
 
 ![cheatsheet](img/Cheatsheet.png)
 (Cheatsheet for ErgoVim, right-click to download if text is too small on your device. This is also included in [release](https://github.com/Letheward/ErgoVim/releases))
