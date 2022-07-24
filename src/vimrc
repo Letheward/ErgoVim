@@ -83,13 +83,13 @@ noremap  A      ^
 noremap  D      g_l
 noremap  <C-A>  0
 noremap  <C-D>  $l
-noremap  <C-W>  gg
-noremap  <C-S>  G
+noremap  <C-W>  gg0
+noremap  <C-S>  Gg$
 
 " Mark (only 1 register, for fast navigation, otherwise it's too clunky to be useful
-noremap  bi      ma
-noremap  bb      `a     
-noremap  B       `a     
+noremap  bi     ma
+noremap  bb     `a     
+noremap  B      `a     
 
 
 
@@ -148,7 +148,7 @@ noremap  -      <C-X>
 noremap  +      g<C-A>
 noremap  _      g<C-X>
 
-" Seletion
+" Selection
 noremap  m      v
 
 noremap  M      V
@@ -157,7 +157,7 @@ noremap  MM     <C-V>
 noremap  MI     {v}
 noremap  Mi     (v)
 noremap  ML     0v$h
-noremap  MA     ggvG$
+noremap  MA     gg0vG$
 
 vnoremap j      d
 vnoremap i      y
@@ -233,6 +233,7 @@ nnoremap <Tab>     >>
 nnoremap <S-Tab>   <<
 
 " Space Action
+" TODO: Gnome Terminal cannot do Shift-Enter, Ctrl-Enter, Shift-Space
 noremap  <Return>    i<Return><Esc>
 noremap  <S-Return>  O<ESC>j
 
@@ -327,8 +328,7 @@ nnoremap ilv  yap
 
 " ==== Auto-complete ====
 " TODO
-inoremap <S-Tab>    <C-X><C-I>
-inoremap <S-Return> <C-N>
+inoremap <S-Tab> <C-N>
 
 
 
@@ -372,7 +372,7 @@ noremap  ne    ;
 
 " ==== Macro ====
 " TODO
-noremap  <C-`> qa
+noremap  <C-H> qa
 noremap  H     @a
 
 
@@ -425,10 +425,10 @@ noremap  X     <C-W>w
 noremap  xl    <C-W>o
 noremap  xk    <C-W>c
 
-noremap  xA   <C-W>h
-noremap  xD   <C-W>l
-noremap  xW   <C-W>k
-noremap  xS   <C-W>j
+noremap  xA    <C-W>h
+noremap  xD    <C-W>l
+noremap  xW    <C-W>k
+noremap  xS    <C-W>j
 
 noremap  xo    <C-W>=
 
