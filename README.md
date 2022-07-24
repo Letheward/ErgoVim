@@ -120,11 +120,11 @@ Examples:
 ## Known Issues
 
 - `CapsLock` will change key commands to uppercase key commands.
-- System clipboard interfacing on linux doesn't work
+- System clipboard interfacing on linux doesn't work (maybe a vim problem with '+clipboard')
 - Some commands will behave like the old way if it's hold rather than tapped.
 - Search back `n` will perform once more if hold, wait for it or hit `N` to cancel.
 - Default small version Vim miss many features, like text object, auto-complete, etc. Using key sequences for those features may cause unwanted behaviors.
-- `Shift-Enter` on GNOME Terminal/Fedora 33 is not working.
+- `Shift-Enter` and `Shift-Space` are not working on GNOME Terminal/Fedora 36.
 - Terminal window switching is not ideal.
 - On Neovim, Visual mode cursor `a` and `d` may lag and need extra key inputs to function.
 - Terminal window on Neovim is not working as expected.
